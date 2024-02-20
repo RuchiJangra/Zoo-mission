@@ -1,0 +1,262 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #211a1d;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+header ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+section {
+  padding: 5%;
+  background-color: #f8f0fb;
+}
+/*tasks*/
+img {
+  border: 5px solid #8075ff;
+}
+#logo {
+  border: none;
+}
+.introduction {
+  background-color: white;
+}
+.introduction p {
+  margin: 20px;
+  padding: 20px;
+}
+.image-container {
+  vertical-align: top;
+}
+.bear1 {
+  border: 5px solid #343739;
+}
+
+.bear2 {
+  border: 5px solid #4ca2db;
+}
+
+.bear3 {
+  border: 5px solid #072b43;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /*Purple*/
+  color: #f4743b;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 175%;
+}
+.heading-news {
+  text-align: center;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+.first {
+  font-size: 30px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #372772;
+  border: 2px solid black;
+  color: #fff;
+  font-size: 18px;
+}
+button:hover,
+button:focus {
+  background-color: #3498db;
+}
+.membership p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #211a1d;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#badge {
+  height: 120px;
+  width: 120px;
+  background-color: #a9f2f7;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  padding: 5px 10px;
+  color: #333; /* Set the initial text color */
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#badge:hover {
+  background-color: yellow;
+}
+
+#badge p {
+  text-align: center;
+  font-size: 125%;
+}
+
+.image-container img {
+  vertical-align: top;
+}
+/*
+.image-container img:first-of-type {
+  vertical-align: bottom;
+} */
+
+.tigers {
+  background-color: #a5bdc3;
+  color: #3e3e39;
+}
+
+.giraffe {
+  background-color: #483c46;
+  color: #beee62;
+}
+
+.giraffe h2 {
+  color: #f4743b;
+}
+
+.card {
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 26%;
+  border: 1px solid black;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.card h4 {
+  margin-bottom: 1em;
+}
+
+.card a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card time {
+  opacity: 0.5;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/*Education*/
+
+.education {
+  height: 500px;
+  background-image: url("https://source.unsplash.com/1200x900/?tiger");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 5%;
+}
+
+.education-container {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 50px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.education-container h3,
+.education-container p {
+  margin-bottom: 1em;
+}
+
+/*Membership*/
+
+.membership {
+  text-align: center;
+  background-color: #fffffc;
+}
+
+.membership h2 {
+  color: #ff3f00;
+}
+
+.membership strong {
+  color: #ff7f11;
+}
+
+/*Programs*/
+
+.programs .card {
+  display: inline-block;
+}
+
+.programs card {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.programs h2 {
+  text-align: center;
+}
+
+.link-container {
+  display: inline-block;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.opening-badge {
+  background-color: #ffcc00;
+  padding: 5px 10px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.opening-badge:hover {
+  background-color: #ff9900;
+  color: #fff;
+}
